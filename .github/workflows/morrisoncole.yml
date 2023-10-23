@@ -25,5 +25,5 @@ jobs:
           # https://docs.github.com/en/actions/security-guides/automatic-token-authentication#permissions-for-the-github_token
           # https://docs.github.com/en/rest/pulls/reviews#dismiss-a-review-for-a-pull-request
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
-          title-regex: "^(feat|fix|docs|style|refactor|perf|test|chore|revert|build)(\\([a-z\\-]+\\))?: .{1,150} \\[[A-Z]+\\]-\\d+$"
+          title-regex: "^(feat|fix|docs|style|refactor|perf|test|chore|revert|build)(\\([a-z\\-]+\\))?: .{1,150} [A-Z]+-\\d+$"
           on-failed-regex-request-changes: false
