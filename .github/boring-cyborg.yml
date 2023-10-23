@@ -1,5 +1,5 @@
 verifyTitles:
   # Regular expression that should be matched by titles of commits or PR
-  titleRegexp: "^(feat|fix|docs|style|refactor|perf|test|chore|revert|build)(\\([a-z\\-]+\\))?: .{1,150} \\[[A-Z]+\\]-\\d+$"
+  titleRegexp: "^(feat|fix|docs|style|refactor|perf|test|chore|revert|build)(\([a-z\-]+\))?: .{1,150} [A-Z]+-\d+$"
   # If set to true, it will always check the PR title (as opposed to the individual commits).
   alwaysUsePrTitle: true
