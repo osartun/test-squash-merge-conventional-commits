@@ -27,3 +27,4 @@ jobs:
           repo-token: "${{ secrets.GITHUB_TOKEN }}"
           title-regex: "^(feat|fix|docs|style|refactor|perf|test|chore|revert|build)(\\([a-z\\-]+\\))?: .{1,150} [A-Z]+-\\d+$"
           on-failed-regex-fail-action: true
+          on-succeeded-regex-dismiss-review-comment: true
